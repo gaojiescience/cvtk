@@ -1,6 +1,8 @@
 cmake_minimum_required (VERSION 2.6)
 project (hnsw_lib)
 
+
+
 SET( CMAKE_CXX_FLAGS  "-Ofast -lrt -DNDEBUG -std=c++11 -DHAVE_CXX0X -openmp -march=native -fpic -w -fopenmp -ftree-vectorize -ftree-vectorizer-verbose=0" )
 
 set(OpenCV_DIR /home/yuanyong/libs/opencv-3.4.0/share/OpenCV)
